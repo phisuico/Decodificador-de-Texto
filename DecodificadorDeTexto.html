@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    
+    <title>Decodificador ONE</title>
+    
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="DecodificadorDeTexto.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <img src="Letra a Alura.png" alt="Letra a do logo da Alura">
+    </header>
+    <main>
+        <section>
+            <textarea class="caixaDeTexto" cols="35" rows="8" placeholder="Digite seu texto..." required></textarea>
+            <ul>
+                <li>  Apenas letras minúsculas e sem acento</li>
+            </ul>
+            <button class="botaoCriptografar" onclick="botaoCriptografar()">Criptografar</button>
+            <button class="botaoDescriptografar" onclick="botaoDescriptografar()">Descriptografar</button>
+        </section>
+
+        <section>
+            <textarea class="caixaDoResultado" cols="25" rows="11" readonly></textarea>
+            <button class="copiar" onclick="copiar()">Copiar</button>
+        </section>
+    </main>
+    
+</body>
+<footer>
+
+</footer>
+<script src="DecodificadorDeTexto.js"></script>
+</html>
